@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{3a7e6142-bc16-4e93-b622-7cd817725f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\sdl">
+      <UniqueIdentifier>{d84e6574-1c6b-4da6-b296-0c0075f130b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\mib">
+      <UniqueIdentifier>{d626683a-3323-4b26-967a-046f2d826691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\dlc">
+      <UniqueIdentifier>{23206ceb-445f-4578-8e84-7b22972b0a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\dlc\dlc_tx">
+      <UniqueIdentifier>{eb009d3c-6877-4801-ae14-42be0fea8af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\dlc\dlc_tx\arq_tx">
+      <UniqueIdentifier>{1788395c-5ecd-4149-8397-86b736fc484d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\dlc\dlc_tx\dlc_tx_ctrl">
+      <UniqueIdentifier>{e80a0de5-6787-4a8e-9120-4d207d0835c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\dlc\dlc_tx\dlc_tx_dump">
+      <UniqueIdentifier>{ceebe0ab-d2d2-4dd1-a270-db6538b4eb10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\dlc\dlc_tx\frm_tx">
+      <UniqueIdentifier>{c1d240bb-c881-49c1-94d2-4419ac33270f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\test_info">
+      <UniqueIdentifier>{ea057d48-1d6d-4550-9295-b32ffe9094fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\mymem">
+      <UniqueIdentifier>{601ef966-75ca-4981-9b9c-23a6cfc0ada8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\dlc\dlc_rx">
+      <UniqueIdentifier>{70546d3b-968b-415e-a000-f88406764644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\dlc\dlc_rx\arq_rx">
+      <UniqueIdentifier>{702fb0c7-5594-4840-add3-2a9d56412e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\dlc\dlc_rx\dlc_rx_ctrl">
+      <UniqueIdentifier>{891cd3a9-eb7a-4356-bfb7-c0ec12896d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\dlc\dlc_rx\dlc_rx_dump">
+      <UniqueIdentifier>{8c793944-a41f-45b3-a81c-53432542b376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\dlc\dlc_rx\frm_rx">
+      <UniqueIdentifier>{ff60fe44-57de-4e0f-8f1d-f027ad426823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\net">
+      <UniqueIdentifier>{b4328e68-ebba-4da7-aac6-eec47e1cc565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\net\nrx">
+      <UniqueIdentifier>{dc5b7e1b-49a5-423b-8cb5-40184abdbcaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\net\ntx">
+      <UniqueIdentifier>{b2829189-5ef2-4c8c-97cd-7c9184e78eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\net\rt_ctrl">
+      <UniqueIdentifier>{efe7f8c2-be09-4f7f-b542-76af18b8c2bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\net\topo_ctrl">
+      <UniqueIdentifier>{0cb40f9e-8897-4910-84d9-d966d338c366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\entity">
+      <UniqueIdentifier>{c5fb6f02-c0e5-406e-94f6-a4b0f3ee8f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\voice">
+      <UniqueIdentifier>{1c9b3a21-bd24-4859-b4a8-637ea0af7be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\voice\vctrl">
+      <UniqueIdentifier>{71514c0f-52c5-4fb8-9364-14c4967a7926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\voice\vrx">
+      <UniqueIdentifier>{815644c5-2765-432b-b017-eb55e9976947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\voice\vtx">
+      <UniqueIdentifier>{d5228630-1ba4-4334-8ca1-1cab0ebca9f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test\sdl\sdl.c">
+      <Filter>test\sdl</Filter>
+    </ClCompile>
+    <ClCompile Include="test\mib\mib.c">
+      <Filter>test\mib</Filter>
+    </ClCompile>
+    <ClCompile Include="test\dlc\dlc_tx\dlc_tx.c">
+      <Filter>test\dlc\dlc_tx</Filter>
+    </ClCompile>
+    <ClCompile Include="test\dlc\dlc_tx\arq_tx\arq_tx.c">
+      <Filter>test\dlc\dlc_tx\arq_tx</Filter>
+    </ClCompile>
+    <ClCompile Include="test\dlc\dlc_tx\dlc_tx_ctrl\dlc_tx_ctrl.c">
+      <Filter>test\dlc\dlc_tx\dlc_tx_ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="test\dlc\dlc_tx\dlc_tx_dump\dlc_tx_dump.c">
+      <Filter>test\dlc\dlc_tx\dlc_tx_dump</Filter>
+    </ClCompile>
+    <ClCompile Include="test\dlc\dlc_tx\frm_tx\frm_tx.c">
+      <Filter>test\dlc\dlc_tx\frm_tx</Filter>
+    </ClCompile>
+    <ClCompile Include="mymem.c">
+      <Filter>test\mymem</Filter>
+    </ClCompile>
+    <ClCompile Include="test_info.c">
+      <Filter>test\test_info</Filter>
+    </ClCompile>
+    <ClCompile Include="test\main.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\dlc\dlc_rx\dlc_rx.c">
+      <Filter>test\dlc\dlc_rx</Filter>
+    </ClCompile>
+    <ClCompile Include="test\dlc\dlc_rx\arq_rx\arq_rx.c">
+      <Filter>test\dlc\dlc_rx\arq_rx</Filter>
+    </ClCompile>
+    <ClCompile Include="test\dlc\dlc_rx\dlc_rx_ctrl\dlc_rx_ctrl.c">
+      <Filter>test\dlc\dlc_rx\dlc_rx_ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="test\dlc\dlc_rx\dlc_rx_dump\dlc_rx_dump.c">
+      <Filter>test\dlc\dlc_rx\dlc_rx_dump</Filter>
+    </ClCompile>
+    <ClCompile Include="test\dlc\dlc_rx\frm_rx\frm_rx.c">
+      <Filter>test\dlc\dlc_rx\frm_rx</Filter>
+    </ClCompile>
+    <ClCompile Include="test\net\topo_ctrl\topo_ctrl.c">
+      <Filter>test\net\topo_ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="test\net\rt_ctrl\rt_ctrl.c">
+      <Filter>test\net\rt_ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="test\net\ntx\ntx.c">
+      <Filter>test\net\ntx</Filter>
+    </ClCompile>
+    <ClCompile Include="test\net\nrx\nrx.c">
+      <Filter>test\net\nrx</Filter>
+    </ClCompile>
+    <ClCompile Include="test\entity.c">
+      <Filter>test\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="test\voice\vtx\vtx.c">
+      <Filter>test\voice\vtx</Filter>
+    </ClCompile>
+    <ClCompile Include="test\voice\vrx\vrx.c">
+      <Filter>test\voice\vrx</Filter>
+    </ClCompile>
+    <ClCompile Include="test\voice\vctrl\vctrl.c">
+      <Filter>test\voice\vctrl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test\sdl\sdl.h">
+      <Filter>test\sdl</Filter>
+    </ClInclude>
+    <ClInclude Include="test\mib\mib.h">
+      <Filter>test\mib</Filter>
+    </ClInclude>
+    <ClInclude Include="test\dlc\dlc_tx\dlc_tx.h">
+      <Filter>test\dlc\dlc_tx</Filter>
+    </ClInclude>
+    <ClInclude Include="test\dlc\dlc_tx\arq_tx\arq_tx.h">
+      <Filter>test\dlc\dlc_tx\arq_tx</Filter>
+    </ClInclude>
+    <ClInclude Include="test\dlc\dlc_tx\dlc_tx_ctrl\dlc_tx_ctrl.h">
+      <Filter>test\dlc\dlc_tx\dlc_tx_ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="test\dlc\dlc_tx\dlc_tx_dump\dlc_tx_dump.h">
+      <Filter>test\dlc\dlc_tx\dlc_tx_dump</Filter>
+    </ClInclude>
+    <ClInclude Include="test\dlc\dlc_tx\frm_tx\frm_tx.h">
+      <Filter>test\dlc\dlc_tx\frm_tx</Filter>
+    </ClInclude>
+    <ClInclude Include="test\common.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="mymem.h">
+      <Filter>test\mymem</Filter>
+    </ClInclude>
+    <ClInclude Include="test_info.h">
+      <Filter>test\test_info</Filter>
+    </ClInclude>
+    <ClInclude Include="test\dlc\dlc_rx\dlc_rx.h">
+      <Filter>test\dlc\dlc_rx</Filter>
+    </ClInclude>
+    <ClInclude Include="test\dlc\dlc_rx\arq_rx\arq_rx.h">
+      <Filter>test\dlc\dlc_rx\arq_rx</Filter>
+    </ClInclude>
+    <ClInclude Include="test\dlc\dlc_rx\dlc_rx_ctrl\dlc_rx_ctrl.h">
+      <Filter>test\dlc\dlc_rx\dlc_rx_ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="test\dlc\dlc_rx\dlc_rx_dump\dlc_rx_dump.h">
+      <Filter>test\dlc\dlc_rx\dlc_rx_dump</Filter>
+    </ClInclude>
+    <ClInclude Include="test\dlc\dlc_rx\frm_rx\frm_rx.h">
+      <Filter>test\dlc\dlc_rx\frm_rx</Filter>
+    </ClInclude>
+    <ClInclude Include="test\net\topo_ctrl\topo_ctrl.h">
+      <Filter>test\net\topo_ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="test\net\rt_ctrl\rt_ctrl.h">
+      <Filter>test\net\rt_ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="test\net\ntx\ntx.h">
+      <Filter>test\net\ntx</Filter>
+    </ClInclude>
+    <ClInclude Include="test\net\nrx\nrx.h">
+      <Filter>test\net\nrx</Filter>
+    </ClInclude>
+    <ClInclude Include="test\entity.h">
+      <Filter>test\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="test\voice\vtx\vtx.h">
+      <Filter>test\voice\vtx</Filter>
+    </ClInclude>
+    <ClInclude Include="test\voice\vrx\vrx.h">
+      <Filter>test\voice\vrx</Filter>
+    </ClInclude>
+    <ClInclude Include="test\voice\vctrl\vctrl.h">
+      <Filter>test\voice\vctrl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

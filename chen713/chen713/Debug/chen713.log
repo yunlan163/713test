@@ -1,0 +1,35 @@
+﻿生成启动时间为 9/6/2016 11:13:27 AM。
+     1>项目“D:\zhaoshanbo_2015\vs_workspace\chen713\chen713\chen713\chen713.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt test\main.c
+         main.c
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\zhaoshanbo_2015\vs_workspace\chen713\chen713\Debug\chen713.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\zhaoshanbo_2015\vs_workspace\chen713\chen713\Debug\chen713.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\zhaoshanbo_2015\vs_workspace\chen713\chen713\Debug\chen713.lib" /MACHINE:X86 Debug\mymem.obj
+         Debug\arq_rx.obj
+         Debug\dlc_rx.obj
+         Debug\dlc_rx_ctrl.obj
+         Debug\dlc_rx_dump.obj
+         Debug\frm_rx.obj
+         Debug\arq_tx.obj
+         Debug\dlc_tx.obj
+         Debug\dlc_tx_ctrl.obj
+         Debug\dlc_tx_dump.obj
+         Debug\frm_tx.obj
+         Debug\entity.obj
+         Debug\main.obj
+         Debug\mib.obj
+         Debug\nrx.obj
+         Debug\ntx.obj
+         Debug\rt_ctrl.obj
+         Debug\topo_ctrl.obj
+         Debug\sdl.obj
+         Debug\vctrl.obj
+         Debug\vrx.obj
+         Debug\vtx.obj
+         Debug\test_info.obj
+         chen713.vcxproj -> D:\zhaoshanbo_2015\vs_workspace\chen713\chen713\Debug\chen713.exe
+     1>已完成生成项目“D:\zhaoshanbo_2015\vs_workspace\chen713\chen713\chen713\chen713.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.41
